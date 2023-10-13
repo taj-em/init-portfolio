@@ -43,6 +43,11 @@ img {
 .img {
   border: 3px double black;
   margin: 3px;
+  width: 50%;
+}
+
+.img1 {
+  width: 51%;
 }
 
 a {
