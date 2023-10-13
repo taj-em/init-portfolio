@@ -6,7 +6,7 @@ body {
 .subtitle {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: underline;
-  text-decoration-color: rgb(66, 29, 151);
+  text-decoration-color: rgb(140, 89, 250);
   font-style: italic;
   text-decoration-thickness: 5px;
 }
@@ -14,7 +14,7 @@ body {
 .title {
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-decoration: underline;
-  text-decoration-color: rgb(66, 29, 151);
+  text-decoration-color: rgb(140, 89, 250);
 }
 
 img {
