@@ -14,6 +14,7 @@
 
 .name {
   text-align: center;
+  font-weight: 100;
 }
 
 .CCR {
@@ -41,8 +42,25 @@ img {
 
 .img {
   border: 3px double black;
+  margin: 3px;
 }
 
 a {
   color: black;
+}
+
+.dark {
+  float: right;
+  margin-top: 5px;
+}
+
+.transition {
+  display: inline-block;
+  animation-name: btndark;
+}
+
+@keyframes btndark {
+  0% {
+    
+  }
 }

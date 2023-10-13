@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.subtitle {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(66, 29, 151);
+  font-style: italic;
+  text-decoration-thickness: 5px;
+}
+
+.title {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-decoration: underline;
+  text-decoration-color: rgb(66, 29, 151);
+}
+
+img {
+  border: 3px double white;
+}
+
+.img {
+  border: 3px double white;
+}
+
+a {
+  color: white;
+}
+
+.about {
+  margin: 10px;
+  border: 3px double white;
+  padding: 5px;
+  height: 50%;
+}
+
+.projects {
+  margin: 10px;
+  border: 3px double white;
+  padding: 5px;
+}
