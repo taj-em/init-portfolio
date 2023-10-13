@@ -56,11 +56,21 @@ a {
 
 .transition {
   display: inline-block;
+  animation-duration: 0.5s;
   animation-name: btndark;
+  animation-fill-mode: forwards;
 }
 
 @keyframes btndark {
   0% {
-    
+
   }
+}
+
+.darkm {
+  color: black;
+}
+
+.lightm {
+  color: white;
 }
