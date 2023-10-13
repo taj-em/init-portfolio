@@ -4,6 +4,10 @@
 
 #### _A portfolio displaying some of my projects, two photos of me and some info relating to me personally_
 
+## Github Pages Link
+
+* https://taj-em.github.io/init-portfolio/
+
 ## Technologies Used
 
 * _HTML_
@@ -19,6 +23,10 @@ _Portfolio website displaying information about me including some projects I've 
 
 * _Launch code with Live Server_
 * _Or search: https://taj-em.github.io/init-portfolio/_
+
+## Github Pages Link
+
+* https://taj-em.github.io/init-portfolio/
 
 ## Known Bugs
 
