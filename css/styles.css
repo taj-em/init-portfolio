@@ -54,23 +54,54 @@ a {
   margin-top: 5px;
 }
 
-.transition {
-  display: inline-block;
-  animation-duration: 0.5s;
-  animation-name: btndark;
-  animation-fill-mode: forwards;
+.btn {
+  position: relative;
 }
 
-@keyframes btndark {
-  0% {
+.btn.btn-slide-light::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: gray;
 
-  }
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 
-.darkm {
-  color: black;
+.btn.btn-slide-light:hover::before,
+.btn.btn-slide-light:focus::before {
+  transform: scaleX(1);
 }
 
-.lightm {
-  color: white;
+.btn.btn-slide-light {
+  z-index: 1;
+}
+
+.btn.btn-slide-dark::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: gray;
+
+  transition: transform 300ms ease-in-out;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+.btn.btn-slide-dark:hover::before,
+.btn.btn-slide-dark:focus::before {
+  transform: scaleX(1);
+}
+
+.btn.btn-slide-dark {
+  z-index: 1;
 }
